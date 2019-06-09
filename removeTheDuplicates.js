@@ -18,24 +18,3 @@ const removeDupes = (array) => {
     } return noDupesArr
 }
 console.log(removeDupes(myArr))
-
-
-// var myArr = [1,2,2,3];
-
-// var removeDupes = function(array){
-//     var newArray = [];
-
-//     for(var i=0 ; i < array.length; i++){
-//         // console.log(array[i])
-//         console.log(newArray.includes( array[i] ) )
-
-//         if( newArray.includes( array[i] ) == false ){
-//             newArray.push( array[i] )
-//         }
-
-//     }
-
-//     return newArray;
-// }
-
-// console.log(removeDupes(myArr))
